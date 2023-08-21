@@ -1,6 +1,6 @@
 #Casear Cipher    
 #Ask for plain text sentence
-org_sentence = input("Please enter the original sentence")
+org_sentence = input("Please enter a senctence: ")
       
 #Create dictionary for casear cipher translations
 caser_cipher = {
@@ -29,4 +29,4 @@ for char in org_sentence:
 translated_sentence = "".join(translated_list)
 
 # Print the translated sentence
-print("Translated Sentence:", translated_sentence)
+print("The encrypted sentence is: ", translated_sentence)
